@@ -8,7 +8,7 @@ interface ButtonProps {
 
 export const Button = ({ link, label, color }: ButtonProps) => {
 	return (
-		<a href={link} className={styles[color]}>
+		<a href={link} className={styles[color]} target="_blank" rel="noreferrer">
 			{label}
 		</a>
 	);

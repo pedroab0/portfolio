@@ -17,7 +17,11 @@ const Home: NextPage = () => {
 					<h1>Olá, eu sou o Pedro Barbosa :)</h1>
 					<h2>Desenvolvedor Front-End & Mobile</h2>
 					<div className={styles.buttons}>
-						<Button link="#" label="Download CV" color="blue" />
+						<Button
+							link="https://drive.google.com/file/d/18NBBj_z6xp8yh9mn8jEHwdiBg0bDQyjO/view?usp=sharing"
+							label="Download CV"
+							color="blue"
+						/>
 						<Button
 							link="https://wa.me/5582996124520"
 							label="Entrar em contato"

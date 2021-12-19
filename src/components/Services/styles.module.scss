@@ -47,10 +47,6 @@
 				font-size: 3.2rem;
 				font-weight: 500;
 				line-height: 4.2rem;
-
-				@media (max-width: 768px) {
-					font-size: 2.4rem;
-				}
 			}
 
 			hr {
@@ -61,7 +57,26 @@
 		}
 
 		@media (max-width: 768px) {
-			flex-wrap: wrap;
+			// flex-wrap: wrap;
+			max-width: 100%;
+			overflow: scroll;
+			justify-content: flex-start;
+
+			.card {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding-right: 2.4rem;
+				gap: 2rem;
+
+				img {
+					margin-bottom: unset;
+				}
+
+				h3 {
+					font-size: 2.4rem;
+				}
+			}
 		}
 	}
 }

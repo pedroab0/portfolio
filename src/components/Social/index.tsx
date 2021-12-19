@@ -4,21 +4,25 @@ export const Social = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.box}>
-				<a href="mailto:p.brbsa@gmail.com">
+				<a href="mailto:p.brbsa@gmail.com" target="_blank" rel="noreferrer">
 					<img src="/mail.svg" alt="" />
 				</a>
 				<h3>E-Mail</h3>
 				<h4>p.brbsa@gmail.com</h4>
 			</div>
 			<div className={styles.box}>
-				<a href="https://www.linkedin.com/in/pedro-abarbosa/">
+				<a
+					href="https://www.linkedin.com/in/pedro-abarbosa/"
+					target="_blank"
+					rel="noreferrer"
+				>
 					<img src="/linkedin.svg" alt="" />
 				</a>
 				<h3>Linkedin</h3>
 				<h4>pedro-abarbosa</h4>
 			</div>
 			<div className={styles.box}>
-				<a href="https://github.com/pedrobarbosa0">
+				<a href="https://github.com/pedrobarbosa0" target="_blank" rel="noreferrer">
 					<img src="/github-transparent.svg" alt="" />
 				</a>
 				<h3>GitHub</h3>
