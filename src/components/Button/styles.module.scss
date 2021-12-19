@@ -1,0 +1,23 @@
+.button {
+	max-width: 14rem;
+	padding: 1.2rem 2.4rem;
+	border-radius: 0.8rem;
+	font-size: 1.4rem;
+	font-weight: 500;
+
+	@media (max-width: 320px) {
+		font-size: 1rem;
+	}
+}
+
+.blue {
+	@extend .button;
+	background-color: var(--blue);
+	color: var(--black);
+}
+
+.black {
+	@extend .button;
+	background-color: var(--black);
+	color: var(--white);
+}
