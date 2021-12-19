@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 
 import { Button } from "../components/Button";
 import { Header } from "../components/Header";
+import { Projects } from "../components/Projects";
 import { Services } from "../components/Services";
 import { Social } from "../components/Social";
 
@@ -45,6 +46,8 @@ const Home: NextPage = () => {
 				<Social />
 
 				<Services />
+
+				<Projects />
 			</main>
 		</>
 	);
