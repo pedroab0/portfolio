@@ -11,15 +11,11 @@ export const Social = () => {
 				<h4>p.brbsa@gmail.com</h4>
 			</div>
 			<div className={styles.box}>
-				<a
-					href="https://www.linkedin.com/in/pedro-abarbosa/"
-					target="_blank"
-					rel="noreferrer"
-				>
+				<a href="https://www.linkedin.com/in/pedroab0/" target="_blank" rel="noreferrer">
 					<img src="/linkedin.svg" alt="" />
 				</a>
 				<h3>Linkedin</h3>
-				<h4>pedro-abarbosa</h4>
+				<h4>pedroab0</h4>
 			</div>
 			<div className={styles.box}>
 				<a href="https://github.com/pedrobarbosa0" target="_blank" rel="noreferrer">

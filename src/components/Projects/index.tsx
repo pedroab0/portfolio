@@ -16,7 +16,7 @@ export const Projects = () => {
 					<h5>TypeScript, React, NextJS & SASS</h5>
 				</a>
 				<a
-					href="https://github.com/pedrobarbosa0/podcastr"
+					href="https://pbpodcastr.vercel.app/"
 					target="_blank"
 					rel="noreferrer"
 					className={styles.card}
