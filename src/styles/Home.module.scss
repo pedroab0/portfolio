@@ -1,19 +1,22 @@
 .main {
-	max-width: 102.4rem;
 	width: 100%;
+	max-width: 102.4rem;
+
 	display: flex;
 	flex-direction: column;
 
 	.presentation {
 		display: flex;
 		flex-direction: column;
-		gap: 2rem;
 		align-items: flex-start;
 		justify-content: center;
+
+		gap: 2rem;
 		padding: 6rem 2rem;
 
 		h1 {
 			max-width: 28.5rem;
+
 			font-size: 3.6rem;
 			font-weight: 700;
 			line-height: 47px;
@@ -29,9 +32,9 @@
 
 		.buttons {
 			display: flex;
-			gap: 1rem;
 			align-items: center;
 			justify-content: center;
+			gap: 1rem;
 		}
 
 		@media (max-width: 475px) {
@@ -51,11 +54,13 @@
 
 	.about {
 		max-width: 75rem;
+
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		gap: 3rem;
+
 		margin: 0 auto;
 		padding: 4rem 2rem 2rem;
 

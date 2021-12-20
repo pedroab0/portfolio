@@ -1,11 +1,13 @@
 .container {
+	width: 100%;
+	max-width: 102.4rem;
+
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
-	max-width: 102.4rem;
-	margin: 0 auto;
+
 	gap: 5rem;
+	margin: 0 auto;
 	padding: 2rem;
 	margin-bottom: 2rem;
 
@@ -14,21 +16,22 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+
 		margin: 2rem 0;
 
 		a {
 			width: fit-content;
+
 			display: flex;
 			justify-content: center;
 			align-items: center;
+
 			padding: 2rem;
 			margin-bottom: 2.4rem;
 			border-radius: 100%;
-			// background-color: var(--black);
 
 			background: rgba(255, 255, 255, 0.15);
 			backdrop-filter: blur(4.04118px);
-			// border: 2.02px solid;
 			border-image-source: linear-gradient(
 				165.4deg,
 				rgba(255, 255, 255, 0.2) -10.07%,
@@ -39,11 +42,12 @@
 		}
 
 		h3 {
+			margin-bottom: 1.2rem;
+
 			font-size: 1.8rem;
 			font-weight: 700;
 			line-height: 2.4rem;
 			color: var(--white);
-			margin-bottom: 1.2rem;
 		}
 
 		h4 {

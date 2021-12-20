@@ -28,7 +28,7 @@ export default class MyDocument extends Document {
 					<meta name="twitter:description" content="Portifolio Pedro Barbosa" />
 					<meta name="twitter:site" content="@" />
 					<meta name="twitter:creator" content="@" />
-					<meta name="twitter:image" content="/web.svg" />
+					<meta name="twitter:image" content="https://pedroab.com/web.svg" />
 
 					{/* Open Graph general (Facebook, Pinterest) */}
 					<meta property="og:title" content="⚡ Pedro Barbosa" />
@@ -36,7 +36,7 @@ export default class MyDocument extends Document {
 					<meta property="og:url" content="https://pedroab.com" />
 					<meta property="og:site_name" content="pedroab.com" />
 					<meta property="og:type" content="website" />
-					<meta property="og:image" content="/web.svg" />
+					<meta property="og:image" content="https://pedroab.com/web.svg" />
 				</Head>
 				<body>
 					<Main />
